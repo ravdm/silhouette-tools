@@ -1,0 +1,102 @@
+[
+  {
+    "file": "hepmass/sme.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/artifacts/sme_k_results.npz",
+    "sha256": "c8c50e0031f51c4bdc398b39483d87d16e062db4b4266a6b1d3c6f9d39ffb912"
+  },
+  {
+    "file": "hepmass/gmm.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/artifacts/gmm_results.npz",
+    "sha256": "f9ea84367217ddaca6a0fdd3f7d5d02c73e03475e0f9edf3144c3c0a026d61fc"
+  },
+  {
+    "file": "hepmass/gmm_aa.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/artifacts/gmm-aa_results.npz",
+    "sha256": "9bbce9e5f54ba7b0b8fbf77958203d644aa51f8b3ba1ffa321478755e447bbde"
+  },
+  {
+    "file": "hepmass/kde.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/artifacts/kde_results_20260425_074638.npz",
+    "sha256": "4964c527414e7e70e3a4e6ce7e9e54161c345cd2e8470306f4ddbe483fdb0cd0"
+  },
+  {
+    "file": "hepmass/nb_kde.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/artifacts/nb_kde_results_20260425_075134.npz",
+    "sha256": "2471724e6fe562a970c680c0a47df4d818f8da4fbb7e8b4d1681399a8119adc4"
+  },
+  {
+    "file": "hepmass/splits.npz",
+    "original_path": "experiments/hepmass/silhouette-experiments/hepmass_splits.npz",
+    "sha256": "0446a8f82a49245f07b3a613c4837c1e5e870b9ad53b041a018f5a2476fe1f2e"
+  },
+  {
+    "file": "hepmass/objective_likelihood.npz",
+    "original_path": "experiments/hepmass/artifacts/run_20260227_120634.npz",
+    "sha256": "96072408a9232c1cfd99d1df1f13637e9a60e712631a6d82a0a4d9e8371cf0e7"
+  },
+  {
+    "file": "kin8nm/sme.npz",
+    "original_path": "experiments/kin8nm/artifacts/silhouette_k_selected_results_20260613_032232.npz",
+    "sha256": "ccf79d214173c0d0ed71520bda1eae5c37462708ef807f1fd8f011e5c39ee6c3"
+  },
+  {
+    "file": "kin8nm/gmm.npz",
+    "original_path": "experiments/kin8nm/artifacts/gmm_results_20260612_075224.npz",
+    "sha256": "a3697b77130856e19fed1f9390461b8ca6cade96362e34f4687802ac82e6d82f"
+  },
+  {
+    "file": "kin8nm/gmm_aa.npz",
+    "original_path": "experiments/kin8nm/artifacts/gmm_aa_results_20260612_075400.npz",
+    "sha256": "7b75a14a3e38ad837460a8a28ddacd16efa5d659cf879a4f3b7ee93f1f27e359"
+  },
+  {
+    "file": "kin8nm/kde.npz",
+    "original_path": "experiments/kin8nm/artifacts/kde_results_20260614_090818.npz",
+    "sha256": "47b7e7f39522a9571dea1f3e83096cdf5805efc1628aac51e8495edd6fd90af4"
+  },
+  {
+    "file": "kin8nm/nb_kde.npz",
+    "original_path": "experiments/kin8nm/artifacts/nb_kde_results_20260612_080039.npz",
+    "sha256": "816118834cf63a69a39abbc1731b41cebfe711f0673e931bdc067859313d2e7a"
+  },
+  {
+    "file": "kin8nm/maf.npz",
+    "original_path": "experiments/kin8nm/artifacts/maf_results_20260614_090956.npz",
+    "sha256": "502c1257a74233e4cc9688e33b1124aed8013abf1f70c3c3d9123d2380f795c4"
+  },
+  {
+    "file": "kin8nm/splits.npz",
+    "original_path": "experiments/kin8nm/kin8nm_splits.npz",
+    "sha256": "22544a438ed0ddb7dc88a9791e352f2c20668d0f45451d4cb4e413fcb40825e1"
+  },
+  {
+    "file": "synthetic/partitions.npz",
+    "original_path": "experiments/3-cubes/exp_results_6-4-2-1.npz",
+    "sha256": "0f8e1754260a0723c1afe7f9832607995995afb79f58bb950155052f6485aace"
+  },
+  {
+    "file": "synthetic/plots/plot_true.pdf",
+    "original_path": "experiments/3-cubes/plots/plot_true.pdf",
+    "sha256": "180a8b922f4e9a132f2c319ce92db0058850b285669d5982831f79c3585e75ea"
+  },
+  {
+    "file": "synthetic/plots/plot_1.pdf",
+    "original_path": "experiments/3-cubes/plots/plot_1.pdf",
+    "sha256": "a81cba33347157950bd1fd48b44cb9093cef7da2fd3a39eff69a5e101877484d"
+  },
+  {
+    "file": "synthetic/plots/plot_2.pdf",
+    "original_path": "experiments/3-cubes/plots/plot_2.pdf",
+    "sha256": "40375ac8b1a99793fa6764609c2d0cde1c71fc7630d1bd890364fa76ab18bb9e"
+  },
+  {
+    "file": "synthetic/plots/plot_4.pdf",
+    "original_path": "experiments/3-cubes/plots/plot_4.pdf",
+    "sha256": "6c0425e2a693c02fa73b7bc261ff1c1304446c32a82c6ea9347e7e00a7cb752c"
+  },
+  {
+    "file": "synthetic/plots/plot_6.pdf",
+    "original_path": "experiments/3-cubes/plots/plot_6.pdf",
+    "sha256": "be319a143a87d1794cd890227305dbae1dbfce54db95dde4359ee100014da31c"
+  }
+]

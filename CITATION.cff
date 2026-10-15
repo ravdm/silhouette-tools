@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Silhouette Tools"
+message: "If you use Silhouette Tools in research, please cite the accompanying paper listed in preferred-citation."
+type: software
+authors:
+  - family-names: "Vandermeulen"
+    given-names: "Robert A."
+version: 0.1.0
+license: BSD-3-Clause
+keywords:
+  - "silhouette mixture estimation"
+  - "mixture-of-products"
+  - "density estimation"
+preferred-citation:
+  type: article
+  title: "The Silhouette Operator: Identifiability of Low-Rank Measures from One-Dimensional Projections"
+  authors:
+    - family-names: "Vandermeulen"
+      given-names: "Robert A."
+  year: 2026
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2610.09687"

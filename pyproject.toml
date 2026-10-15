@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "silhouette-tools"
+version = "0.1.0"
+description = "Silhouette mixture estimation and mixture-of-products density models"
+authors = [{ name = "Robert A. Vandermeulen" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+keywords = ["silhouette mixture estimation", "mixture-of-products", "density estimation", "Wasserstein"]
+
+dependencies = [
+    "numpy>=2.1",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+examples = ["matplotlib"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2610.09687"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["silhouette_tools", "silhouette_tools.*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

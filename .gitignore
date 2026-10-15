@@ -1,0 +1,69 @@
+# Python-generated files and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and test/tool caches
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local credentials and editor / operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Generated example figures (the checked-in preview remains included)
+/examples/output/
+
+# New experiment datasets, models, results, and plots stay local.
+# Curated original paper results are tracked separately in /paper_results/.
+# Scope these rules to experiments so future library fixtures can be committed.
+/experiments/**/*.npz
+/experiments/**/*.npy
+/experiments/**/*.csv
+/experiments/**/*.arff
+/experiments/**/*.pkl
+/experiments/**/*.pickle
+/experiments/**/*.pt
+/experiments/**/*.pth
+/experiments/**/*.h5
+/experiments/**/*.hdf5
+/experiments/**/*.pdf
+/experiments/**/*.png
+/experiments/**/*.svg
+/experiments/**/*.log
+/experiments/**/data/
+/experiments/**/datasets/
+/experiments/**/artifacts/
+/experiments/**/plots/
+/experiments/**/results/
+
+# Local paper source (reference only; never include in the repository)
+/paper.tex
+
+# LaTeX build output
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+/paper.pdf
+/paper.log
